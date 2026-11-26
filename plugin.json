@@ -1,8 +1,8 @@
 {
   "name": "model-tips",
   "displayName": "模型人话小抄 (Model Tips)",
-  "description": "在输入框敲 /m 即可弹出各模型的人话工种气泡说明，零界面遮挡，秒选不纠结。",
-  "version": "1.0.0",
+  "description": "在输入框敲 /m 秒弹各模型的人话工种气泡说明；自带静默同步与新模型自动感知 (/m-sync)，零界面遮挡。",
+  "version": "1.1.0",
   "author": {
     "name": "youyukongzhong",
     "url": "https://github.com/youyukongzhong"
@@ -15,7 +15,7 @@
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
     "/m 帮我看一下我现在要做的任务适合切哪个模型",
-    "/m 给我展示完整的模型选型人话对照表",
+    "/m-sync 帮我检查并同步最新模型词库",
     "/m Carbon、Neon 和 Claude Sonnet 写代码和写推文分别怎么选？"
   ]
 }

@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 *.tmp
+.cache/
+local_models.txt
+skills/m-local-*/

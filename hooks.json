@@ -1,0 +1,11 @@
+{
+  "model-tips-auto-sync": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "cd scripts && (sh session-start.sh || powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File session-start.ps1)",
+        "timeout": 5
+      }
+    ]
+  }
+}
