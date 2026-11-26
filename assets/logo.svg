@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="badgeGrad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+  <!-- Speech bubble card with ~12% outer margin -->
+  <path d="M26 20H102C107.523 20 112 24.477 112 30V82C112 87.523 107.523 92 102 92H58L38 110V92H26C20.477 92 16 87.523 16 82V30C16 24.477 20.477 20 26 20Z"
+        stroke="url(#badgeGrad)" stroke-width="7" stroke-linejoin="round" fill="#1E293B" fill-opacity="0.88"/>
+  <!-- Four-point AI sparkle on left -->
+  <path d="M42 40L45.2 49.8L55 53L45.2 56.2L42 66L38.8 56.2L29 53L38.8 49.8L42 40Z" fill="#38BDF8"/>
+  <!-- Clean cheat-sheet lines on right -->
+  <line x1="63" y1="45" x2="96" y2="45" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
+  <line x1="63" y1="59" x2="88" y2="59" stroke="#C084FC" stroke-width="6" stroke-linecap="round"/>
+  <line x1="63" y1="73" x2="94" y2="73" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+</svg>
